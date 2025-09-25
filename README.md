@@ -1,68 +1,39 @@
-# 🐛 Classificação de Pragas Agrícolas com Deep Learning  
+# 💻 Portfólio de Projetos - Machine Learning & IA
 
-Este projeto foi desenvolvido no **Bootcamp BairesDev - DIO**, com o objetivo de **classificar imagens de pragas agrícolas** utilizando **Redes Neurais Convolucionais (CNNs)** e **Transfer Learning com VGG16**.  
+Bem-vindo(a) ao meu portfólio de projetos, que demonstra minhas habilidades e experiência prática em **Machine Learning (ML)** e **Inteligência Artificial (IA)**.
 
-A ideia central é treinar modelos de **Visão Computacional** capazes de identificar pragas a partir de imagens, apoiando soluções para o setor agrícola e contribuindo para **agricultura inteligente e sustentável**.  
-
----
-
-## ⚙️ Tecnologias Utilizadas  
-
-- **Python 3.12**  
-- **TensorFlow / Keras** – construção, treino e avaliação das redes neurais.  
-- **Matplotlib** – visualização de métricas de treino e resultados.  
-- **NumPy** – manipulação numérica dos dados.  
-- **Google Colab** – ambiente de execução e treinamento em GPU.  
+Os projetos foram desenvolvidos utilizando as tecnologias e ferramentas nas quais fui certificado(a) como **Machine Learning Practitioner** pela **BairesDev**.
 
 ---
 
-## 🚀 Etapas do Projeto  
+### 🛠️ Habilidades e Ferramentas
 
-1. **Preparação dos Dados**  
-   - Normalização das imagens.  
-   - Divisão em treino, validação e teste (70% / 15% / 15%).  
-
-2. **Modelo CNN do Zero**  
-   - Arquitetura própria com camadas **Conv2D, MaxPooling, Dropout e Dense**.  
-   - Atingiu **~84% de acurácia** no conjunto de teste.  
-
-3. **Transfer Learning com VGG16**  
-   - Utilização do modelo **pré-treinado no ImageNet**.  
-   - Camadas convolucionais congeladas + nova camada densa para classificação binária.  
-   - Atingiu **~90% de acurácia** no conjunto de teste.  
-
-4. **Avaliação e Visualização**  
-   - Curvas de **val_loss** e **val_accuracy** comparando os modelos.  
-   - Teste em imagens reais para verificar probabilidades de classificação.  
+| Categoria | Habilidades |
+| :--- | :--- |
+| **Linguagens e Fundamentos** | Python, R, Machine Learning, Inteligência Artificial (IA) |
+| **Bibliotecas e Frameworks** | TensorFlow, Scikit-learn, OpenCV, Pandas, NumPy |
+| **Ambiente de Desenvolvimento** | Anaconda, Jupyter Notebook/Colab |
 
 ---
 
-## 📊 Resultados  
+### 📂 Projetos Destacados
 
-- **CNN do Zero** → Test Accuracy: **84.37%**  
-- **VGG16 (Transfer Learning)** → Test Accuracy: **90.62%** ✅  
+Aqui está uma lista dos projetos incluídos neste portfólio, com uma breve descrição do que cada um aborda:
 
-O uso de Transfer Learning se mostrou mais eficiente e robusto para o problema.  
-
----
-
-## 📚 Aprendizados  
-
-- Construção de **Redes Neurais Convolucionais (CNNs)** do zero.  
-- Aplicação de **Transfer Learning** com o modelo VGG16.  
-- Técnicas de **pré-processamento de dados** (normalização e divisão em treino/validação/teste).  
-- Uso de métricas de avaliação para comparar diferentes arquiteturas de redes neurais.  
-- Visualização dos resultados com **gráficos de acurácia e perda** durante o treinamento.  
+| Nome do Arquivo | Descrição do Projeto | Habilidades Chave |
+| :--- | :--- | :--- |
+| **`Transfer_Learning.ipynb`** | Projeto de **Transfer Learning** em Python, utilizando modelos pré-treinados para resolver um novo problema de visão computacional ou classificação de forma eficiente. | TensorFlow, Redes Neurais, CNN |
+| **`Treinamento_Rede_YOLO.ipynb`** | Demonstração do treinamento de uma **Rede YOLO** (You Only Look Once) para detecção de objetos em tempo real. | Visão Computacional, YOLO, Detecção de Objetos |
+| **`Reconhecimento_Facial.ipynb`** | Implementação de um sistema de **Reconhecimento Facial** explorando a distinção entre diferentes classes de faces. | Visão Computacional, OpenCV, Classificação |
+| **`Tradutor_Virtual.ipynb`** | Criação de um **Tradutor Virtual de texto para áudio**, abordando o processamento e conversão de linguagem. | Processamento de Linguagem Natural (NLP), Áudio |
+| **`Sistema_de_Recomendacao.ipynb`** | Desenvolvimento de um **Sistema de Recomendação**, provavelmente utilizando filtragem colaborativa ou baseada em conteúdo. | Filtragem Colaborativa, Algoritmos de ML |
+| **`Reducao_Dimensionalidade.ipynb`** | Estudo e aplicação de técnicas de **Redução de Dimensionalidade** (como PCA) em dados de imagens para otimizar o desempenho de Redes Neurais. | PCA, Otimização, Pré-processamento |
+| **`Matriz_Confusão.ipynb`** | Foco na análise de métricas de avaliação, como a **Matriz de Confusão**, para entender o desempenho de um modelo de classificação. | Avaliação de Modelos, Classificação |
 
 ---
 
+### ✉️ Contato
 
-## 📬 Contato  
+* **LinkedIn:** = https://www.linkedin.com/in/jessiepsx/
 
-👩‍💻 Desenvolvido por **Jéssica Pereira**  
-🔗 [LinkedIn](https://www.linkedin.com/in/jessiepsx)  
-📂 [GitHub](https://github.com/jessiepsx)  
-
----
-
-
+Sinta-se à vontade para explorar os notebooks e entrar em contato para discutir qualquer projeto!
